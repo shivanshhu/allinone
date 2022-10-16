@@ -1,4 +1,4 @@
-name : 🏴󠁧󠁢󠁥󠁮󠁧󠁿 English
+name :  😍 🅼🅴🆁🅸 🅱🅷🅰🆂🅰 😍 
 
 # General Strings
 general_1 : "Reply to a user's message or give username/user_id."
@@ -36,16 +36,16 @@ auth_7 : "**Authorised Users List[AUL]:**\n\n"
 auth_8 : "┗ Added By:-"
 
 # PLUGINS - Admins
-admin_1 : "Music is already Paused."
-admin_2 : "🎧 Voicechat Paused by {}!"
-admin_3 : "Music is already resumed."
-admin_4 : "🎧 Voicechat Resumed by {}!"
-admin_5 : "Music is already muted."
-admin_6 : "🎧 Voicechat Muted by {}!"
-admin_7 : "Music is already unmuted."
-admin_8 : "🎧 Voicechat Unmuted by {}!"
-admin_9 : "🎧 Voicechat End/Stopped by {}!"
-admin_10 : "🎧 Voicechat Skipped by {}!. No More Music in Queue."
+admin_1 : "𝑮𝒂𝒂𝒏𝒂 𝒑𝒆𝒉𝒍𝒆 𝒔𝒆 𝒓𝒖𝒌𝒍𝒆 𝒉𝒂𝒊 𝒑𝒂𝒈𝒂𝒍."
+admin_2 : "🤨 𝑮𝒂𝒂𝒏𝒂 𝒓𝒐𝒌𝒏𝒆 𝒘𝒂𝒍𝒆 𝒊𝒏𝒔𝒂𝒂𝒏 𝒚𝒆 𝒉𝒂𝒊 {}!"
+admin_3 : "𝑮𝒂𝒂𝒏𝒂 𝒄𝒉𝒂𝒂𝒍𝒖 𝒉𝒂𝒊 𝒑𝒂𝒈𝒂𝒍 𝒑𝒆𝒉𝒍𝒆 𝒔𝒆."
+admin_4 : "😚 𝑱𝒂𝒂𝒏 𝒕𝒖𝒎𝒏𝒆 𝒄𝒉𝒂𝒍𝒂 𝒅𝒊𝒚𝒂 𝒔𝒐𝒏𝒈 {}!"
+admin_5 : "𝑩𝒂𝒃𝒖 𝒑𝒆𝒉𝒍𝒆 𝒔𝒆 𝒎𝒖𝒕𝒆 𝒉𝒂𝒊."
+admin_6 : "😕 𝑴𝒖𝒕𝒆 𝒌𝒓𝒏𝒆 𝒘𝒂𝒍𝒂 𝒊𝒏𝒔𝒂𝒂𝒏 𝒚𝒆𝒉 𝒉𝒂𝒊 {}!"
+admin_7 : "𝑮𝒂𝒂𝒏𝒂 𝒃𝒂𝒋 𝒉𝒊 𝒓𝒉𝒂 𝒖𝒏𝒎𝒖𝒕𝒆 𝒉𝒂𝒊 𝒑𝒆𝒉𝒍𝒆 𝒔𝒆."
+admin_8 : "😍 𝑮𝒂𝒂𝒏𝒂 𝒄𝒉𝒂𝒍𝒖 𝒌𝒓 𝒅𝒊𝒚𝒂 𝒋𝒂𝒂𝒏 𝒕𝒖𝒎𝒏𝒆 {}!"
+admin_9 : "😤 𝑽𝒐𝒊𝒄𝒆𝑪𝒉𝒂𝒕 𝑬𝒏𝒅 𝒌𝒊𝒚𝒂 𝒊𝒔𝒏𝒆 {}!"
+admin_10 : "😘 𝑨𝒈𝒍𝒂 𝒈𝒂𝒂𝒏𝒂 𝒔𝒖𝒏𝒏𝒂 𝒉𝒂𝒊 𝒌𝒚𝒂 𝒋𝒂𝒂𝒏 𝒔𝒌𝒊𝒑 𝒌𝒓𝒅𝒊 {}!. 𝑱𝒂𝒂 𝒍𝒊𝒔𝒕 𝒎𝒂𝒊𝒏 𝒌𝒐𝒊 𝒈𝒂𝒂𝒏𝒂 𝒂𝒅𝒅 𝒏𝒉𝒊 𝒉𝒂𝒊 𝒄𝒉𝒍𝒐 𝒔𝒐𝒏𝒈 𝒂𝒅𝒅 𝒌𝒓𝒐 𝒋𝒂𝒍𝒅𝒊 ❤️‍🔥"
 admin_11 : "Error while changing stream to **{0}**\n\nPlease use /skip again."
 admin_12 : "Unable to skip to a specific track because of enabled loop play. Please disable loop play via `/loop disable` to use this feature."
 admin_13 : "Please use numeric numbers for specific tracks, like 1, 2 or 4 etc"
@@ -142,7 +142,7 @@ cplay_5 : "Only Channels are supported."
 cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with this group.\n**Channel's Owner:** @{1}\n\nAlternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
 
 #Play
-play_1 : "🔄 Processing Query... Please Wait!"
+play_1 : "🥱𝑰𝒏𝒕𝒆𝒛𝒂𝒓 𝑲𝒂𝒓𝒐 𝑱𝒂𝒂𝒏 𝑩𝒂𝒋 𝑱𝒂𝒚𝒆𝒈𝒂 𝑮𝒂𝒂𝒏𝒂🥱"
 play_2 : "**🏷Channel Play Mode**\n\n🔄 Processing Query... Please Wait!\n**Linked Channel:** {0}"
 play_3 : "Failed to Process Query!"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
@@ -229,10 +229,10 @@ queue_4 : "⏳ Added to Queue at **#{0}\n\n💡Title:** {1}\n**⏱Duration:** {2
 queue_5 : "Only one track inside queue, Please add some more to check list"
 
 # All Streaming Lines
-stream_1 : "📡 **Started Streaming** 💡\n\n👤**Requested By:** {0}\n🔦**Information: **[Here]({1})"
-stream_2 : "📡 **Started Streaming via URL ** 💡\n\n👤**Requested By:** {0}"
-stream_3 : "📡 **Started Streaming** 💡\n\n**🏷Title:** {0}\n⌛️**Duration**: {1}\n👤**Requested By:** {2}"
-stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️**Duration**: {2}\n👤**Requested By:** {3}"
+stream_1 : "❤️‍🔥 **𝑪𝒉𝒂𝒍𝒖 𝒉𝒐𝒈𝒚𝒂** 😚\n\n😜**𝑪𝒉𝒍𝒂𝒏𝒆 𝑾𝒂𝒍𝒂:** {0}\n🔦**Information: **[Here]({1})"
+stream_2 : "❤️‍🔥 **𝑪𝒉𝒂𝒍𝒖 𝒉𝒐𝒈𝒚𝒂 via URL ** 😚\n\n😜**𝑪𝒉𝒍𝒂𝒏𝒆 𝑾𝒂𝒍𝒂:** {0}"
+stream_3 : "❤️‍🔥 **𝑪𝒉𝒂𝒍𝒖 𝒉𝒐𝒈𝒚𝒂** 😚\n\n**🏷Title:** {0}\n⌛️**𝑮𝒂𝒂𝒏𝒂 𝒄𝒉𝒍𝒏𝒆 𝒌𝒂 𝒘𝒂𝒒𝒕**: {1}\n😜**𝑪𝒉𝒍𝒂𝒏𝒆 𝑾𝒂𝒍𝒂:** {2}"
+stream_4 : "❤️‍🔥 **𝑪𝒉𝒂𝒍𝒖 𝒉𝒐𝒈𝒚𝒂** 😚\n\n**🏷Title:** [{0}]({1})\n⌛️**𝑮𝒂𝒂𝒏𝒂 𝒄𝒉𝒍𝒏𝒆 𝒌𝒂 𝒘𝒂𝒒𝒕**: {2}\n😜**𝑪𝒉𝒍𝒂𝒏𝒆 𝑾𝒂𝒍𝒂:** {3}"
 
 # Inline Buttons
 
@@ -246,14 +246,14 @@ UNBAN_BUTTON : "🗑 Unban Assistant"
 L_B_1 : "🚀 Checkout Lyrics Now"
 
 # Start
-S_B_1 : "🗒 Commands"
-S_B_2 : "🔧 Settings"
-S_B_3 : "📨 Support"
-S_B_4 : "📨 Channel"
-S_B_5 : "✚ Add me to your Group"
-S_B_6 : "💡 Git Repo"
-S_B_7 : "👤 Bot Owner"
-S_B_8 : "🔎 How to Use? Commands Menu."
+S_B_1 : "😼ℂ𝕠𝕞𝕞𝕒𝕟𝕕𝕤😼"
+S_B_2 : "👾𝕊𝕖𝕥𝕥𝕚𝕟𝕘𝕤👾"
+S_B_3 : "🥺𝔾𝕣𝕠𝕦𝕡 𝕄𝕒𝕚𝕟 𝔸𝕒 𝕁𝕒𝕠🥺"
+S_B_4 : "😦ℂ𝕙𝕒𝕟𝕟𝕖𝕝 𝕁𝕠𝕚𝕟 𝕂𝕒𝕣𝕝𝕠😦"
+S_B_5 : "💌𝕄𝕦𝕛𝕙𝕖 𝔹𝕙𝕚 𝕊𝕒𝕞𝕚𝕝 𝕂𝕒𝕣𝕠 𝔸𝕡𝕟𝕖 𝔾𝕣𝕠𝕦𝕡 𝕄𝕒𝕚𝕟💌"
+S_B_6 : "❤️‍🔥ℝ𝕖𝕡𝕠❤️‍🔥"
+S_B_7 : "😎𝔹𝕠𝕥 𝔹𝕒𝕟𝕒𝕟𝕖 𝕎𝕒𝕝𝕒😎"
+S_B_8 : "😈ℍ𝕠𝕨 𝕋𝕠 𝕌𝕤𝕖? ℂ𝕠𝕞𝕞𝕒𝕟𝕕𝕤 𝕄𝕖𝕟𝕦😈"
 
 #Help 
 H_B_1 : "Admin Commands"
