@@ -78,7 +78,12 @@
         "value": "master",
         "required": true
       }
-    },
+    {
+        "STRING": {
+            "description": "Pyrogram String session of your account",
+            "required": true
+        }
+        },
     "buildpacks": [
           {
               "url": "heroku/python"
@@ -95,5 +100,9 @@
               "quantity": 1,
               "size": "free"
           }
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }]
       }
   }
