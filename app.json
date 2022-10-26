@@ -1,108 +1,157 @@
 {
-    "name": "Yukki Music Bot",
-    "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
-    "keywords": [
-    "python3",
-    "telegram",
-    "bot",
-    "Yukki",
-    "YukkiMusicBot",
-    "telegram-bot",
-    "pyrogram"
-    ],
-    "stack": "container",
-    "env": {
+      "name": "Fallen Robot",
+      "description": "Telegram Group Management Bot.",
+      "logo": "https://telegra.ph/file/72e135da30a1a349f2844.jpg",
+      "keywords": [
+         "telegram",
+         "sexy",
+         "group",
+         "manager",
+         "Fallen"
+      ],   
+   "repository": "https://github.com/TheAnonymous2005/FallenRobot",
+   "stack": "heroku-20",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "TOKEN": {
+         "description": "Get bot token from @BotFather on TG",
+         "required": true,
+         "value": ""
+      },
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
-        "required": true
+         "description": "Get this value from my.telegram.org/apps.",
+         "required": true,
+         "value": ""
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
-        "required": true
-      },
-      "AUTO_LEAVING_ASSISTANT": {
-        "description": "If you want your assistant to leave all chats automatically after some time.",
-        "value": "True",
-        "required": false
-      },
-      "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
-        "value": "",
-        "required": true
-      },
-      "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
-        "value": "",
-        "required": true
-      },
-      "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. Please don't use ascii characters",
-        "value": "",
-        "required": true
-      },
+         "description": "Get this value from my.telegram.org/apps.",
+         "required": true,
+         "value": ""
+      },    
+      "SQLALCHEMY_DATABASE_URI": {
+         "description": "Your postgres sql db, Leave this field empty if you don't have one.",
+         "required": false,
+         "value": ""
+      },      
       "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "",
-        "required": true
-      },
-      "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "",
-        "required": true
+         "description": "Your user ID as an integer.",
+         "required": true,
+         "value": "1356469075"
       },
       "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
-        "value": "",
-        "required": false
+        "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
+        "value": ""
       },
       "HEROKU_APP_NAME": {
-        "description": "Your heroku app/bot's name",
-        "value": "",
+        "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
         "required": false
       },
-      "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "",
-        "required": true
+      "OWNER_USERNAME": {
+         "description": "Your username without the @",
+         "value": "anonymous_was_bot"
       },
-      "UPSTREAM_REPO": {
-        "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/TeamYukki/YukkiMusicBot",
-        "required": true
+      "SUPPORT_CHAT": {
+         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Fallen Support than consider you made an enemy.",
+         "required": true,
+         "value": "DevilsHeavenMF"
       },
-      "UPSTREAM_BRANCH": {
-        "description": "Upstream Repo's Branch Name",
-        "value": "master",
-        "required": true
-      }
-    {
-        "STRING": {
-            "description": "Pyrogram String session of your account",
-            "required": true
-        }
-        },
-    "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "heroku/nodejs"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-          }
-      ],
-      "formation": {
-          "worker": {
-              "quantity": 1,
-              "size": "free"
-          }
-    "addons": [
-        {
-            "plan": "heroku-postgresql"
-        }]
-      }
-  }
+      "MONGO_DB_URI": {
+         "description": "Required for database connections.",
+         "required": true,
+         "value": ""
+      },
+      "EVENT_LOGS": {
+         "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
+         "required": true,
+         "value": ""
+      },
+      "JOIN_LOGGER": {
+         "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
+         "required": true,
+         "value": ""
+      },      
+      "CASH_API_KEY": {
+         "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
+         "required": true,
+         "value": ""
+      },
+      "TIME_API_KEY": {
+         "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
+         "required": true,
+         "value": ""
+      },
+      "DEV_USERS": {
+         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Fallen Support then keep the current ID's here at they are and add yours.",
+         "required": false,
+         "value": "1356469075"
+      },
+      "STRICT_GBAN": {
+         "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
+         "value": "True"
+      },
+      "DRAGONS": {
+         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+         "required": false,
+         "value": ""
+      },
+      "DEMONS": {
+         "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
+         "required": false,
+         "value": ""
+      },
+      "TIGERS": {
+         "description": "A space separated list of user IDs who you wanna assign as tiger users.",
+         "required": false,
+         "value": ""
+      },
+      "WOLVES": {
+         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
+         "required": false,
+         "value": ""
+      },
+      "ENV": {
+         "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
+         "value": "ANYTHING"
+      },
+      "URL": {
+         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
+         "required": false,
+         "value": "https://appname.herokuapp.com/"
+      },
+      "No_LOAD": {
+         "description": "Dont load these modules cause they shit, space separation",
+         "required": false,
+         "value": "rss"
+      }, 
+      "BL_CHATS": {
+         "description": "List of chats you want blacklisted.",
+         "required": false,
+         "value": ""
+      },
+      "ALLOW_EXCL": {
+         "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
+         "value": "True"
+      },
+      "DONATION_LINK": {
+         "description": "Link where you would like to receive donations. If you are a noob, better leave it linking to Anonymous",
+         "required": false,
+         "value": "https://t.me/anonymous_was_bot"
+      },
+      "DEL_CMDS": {
+         "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
+         "value": "True"
+      },
+      "START_IMG": {
+      "description": "Telegraph link of the image which will be shown at start command.",
+         "required": true,
+         "value": ""
+   }
+   }
+}
